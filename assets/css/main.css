@@ -325,6 +325,8 @@ input, select, textarea {
 
 
 	.row {
+
+
 		display: flex;
 		flex-wrap: wrap;
 		box-sizing: border-box;
@@ -340,6 +342,7 @@ input, select, textarea {
 
 	.row .column img{
 
+		margin-top: 2rem;
 		border-radius: 60%;
 		width: 100%;
 		height:100%;
@@ -2602,6 +2605,18 @@ input, select, textarea {
 			font-family: 'Font Awesome 5 Brands';
 		}
 
+
+/* About Image */
+
+.w3-row .post.featured .about  img {
+
+	width: 15rem;
+	border-radius: 100%;
+}
+
+
+
+
 /* Image */
 
 	.image {
@@ -4734,6 +4749,9 @@ input, select, textarea {
 		}
 
 	}
+
+
+
 
 
 
