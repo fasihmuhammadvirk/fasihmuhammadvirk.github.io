@@ -95,6 +95,29 @@
         loop: true,
         items: 1
     });
+
+
+    //Contact
+
+    document.addEventListener("DOMContentLoaded", function() {
+    const contactForm = document.getElementById("contactForm");
+    const sendMessageButton = document.getElementById("sendMessageButton");
+    
+    sendMessageButton.addEventListener("click", function(event) {
+        // Prevent the default form submission behavior
+        event.preventDefault();
+    
+        // Clear form fields
+        const formFields = contactForm.querySelectorAll("input, textarea");
+        formFields.forEach(field => {
+        field.value = "";
+        });
+    
+        // Redirect to the homepage or scroll to the top of the page
+        window.location.href = "#"; // Change "#" to your homepage URL or use "javascript:scroll(0,0);" to scroll to the top
+    });
+    });
+    
     
 })(jQuery);
 
